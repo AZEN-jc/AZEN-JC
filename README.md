@@ -1,10 +1,10 @@
-# AZEN
+# AZEN-JC
 
 Building at the intersection of AI agent infrastructure, verifiable reasoning systems, and onchain finance.
 
 ## Projects
 
-### [RepoPilot](https://github.com/azen07508-debug/repopilot)
+### [RepoPilot](https://github.com/AZEN-JC/repopilot)
 
 The quality layer for agents that ship code. Point it at a public repo and get
 evidence-backed findings (every claim carries a `path:line:reason` pointer) and
@@ -20,7 +20,7 @@ Static analysis only — it never executes the audited repository's code.
 
 `TypeScript` `Fastify` `MCP` `x402`
 
-### [MingLi Agent (agent-knowledge-os)](https://github.com/azen07508-debug/agent-knowledge-os)
+### [MingLi Agent (agent-knowledge-os)](https://github.com/AZEN-JC/agent-knowledge-os)
 
 Verifiable Chinese astrology reasoning system. Separates deterministic chart
 computation from multi-agent reasoning, using a rule engine for classical texts
@@ -29,7 +29,7 @@ without LLM hallucinations. Evaluated continuously against MingLi-Bench and fate
 
 `Python` `Multi-Agent` `Evidence Layer` `Rule Engine` `Deterministic Computing`
 
-### [XGuard Hook](https://github.com/azen07508-debug/xguard-hook)
+### [XGuard Hook](https://github.com/AZEN-JC/xguard-hook)
 
 Dynamic risk-fee [Uniswap v4](https://docs.uniswap.org/contracts/v4/overview) Hook for new-asset,
 meme, and low-cap pools on X Layer. LP fees scale with swap impact — `Normal` 0.30%,
