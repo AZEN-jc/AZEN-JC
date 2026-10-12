@@ -1,20 +1,8 @@
-# azen07508-debug
+# AZEN
 
-Building at the intersection of onchain finance and AI agent infrastructure.
+Building at the intersection of AI agent infrastructure, verifiable reasoning systems, and onchain finance.
 
 ## Projects
-
-### [XGuard Hook](https://github.com/azen07508-debug/xguard-hook)
-
-Dynamic risk-fee [Uniswap v4](https://docs.uniswap.org/contracts/v4/overview) Hook for new-asset,
-meme, and low-cap pools on X Layer. LP fees scale with swap impact — `Normal` 0.30%,
-`Warning` 1.00%, `Protected` 3.00% — and the pool's risk state is verifiable onchain, so
-traders and LPs price the same risk the contract does.
-
-Ships with a demo router, a live frontend, and a Foundry test suite covering the fee
-override, risk decay, and hard-threshold blocking paths.
-
-`Solidity` `Foundry` `Uniswap v4` `X Layer` — [live demo](https://xguard-hook.vercel.app)
 
 ### [RepoPilot](https://github.com/azen07508-debug/repopilot)
 
@@ -32,12 +20,36 @@ Static analysis only — it never executes the audited repository's code.
 
 `TypeScript` `Fastify` `MCP` `x402`
 
+### [MingLi Agent (agent-knowledge-os)](https://github.com/azen07508-debug/agent-knowledge-os)
+
+Verifiable Chinese astrology reasoning system. Separates deterministic chart
+computation from multi-agent reasoning, using a rule engine for classical texts
+and an **Evidence Layer** to trace every conclusion back to classical sources
+without LLM hallucinations. Evaluated continuously against MingLi-Bench and fate-bench.
+
+`Python` `Multi-Agent` `Evidence Layer` `Rule Engine` `Deterministic Computing`
+
+### [XGuard Hook](https://github.com/azen07508-debug/xguard-hook)
+
+Dynamic risk-fee [Uniswap v4](https://docs.uniswap.org/contracts/v4/overview) Hook for new-asset,
+meme, and low-cap pools on X Layer. LP fees scale with swap impact — `Normal` 0.30%,
+`Warning` 1.00%, `Protected` 3.00% — and the pool's risk state is verifiable onchain, so
+traders and LPs price the same risk the contract does.
+
+Ships with a demo router, a live frontend, and a Foundry test suite covering the fee
+override, risk decay, and hard-threshold blocking paths.
+
+`Solidity` `Foundry` `Uniswap v4` `X Layer` — [live demo](https://xguard-hook.vercel.app)
+
 ## Focus
 
-- **AI agent infrastructure** — memory, skills, harness design, MCP tooling
-- **DeFi primitives** — Uniswap v4 Hooks, onchain risk pricing, X Layer
-- **Developer tooling** — the kind that actually ships
+- **AI Agent Infrastructure & DevTools** — release quality gates, audit-fix loops, MCP tooling
+- **Verifiable AI & Reasoning Systems** — evidence layers, rule engines, deterministic execution
+- **DeFi Primitives** — Uniswap v4 Hooks, onchain dynamic risk pricing, X Layer
 
 ---
 
-_中文：做链上金融与 AI Agent 基础设施的交叉地带。上面两个项目，一个在 X Layer 上做 Uniswap v4 动态风险费率 Hook；另一个是给 Agent 用的仓库质量层——审计出问题、给出可执行的修复计划、改完再审计做前后对比。_
+_中文：深耕 AI Agent 基础设施、可验证推理系统与链上金融的交叉领域。_
+- _**RepoPilot**：面向代码生成 Agent 的发布把关层与审计修复闭环（HTTP / MCP 静态分析）；_
+- _**MingLi Agent**：融合确定性排盘、典籍规则引擎与证据链追踪的可验证命理推理智能体；_
+- _**XGuard Hook**：部署于 X Layer 的 Uniswap v4 动态风险费率 Hook。_
